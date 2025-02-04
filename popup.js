@@ -95,6 +95,6 @@ function updateFeedbackElements(rating) {
       console.log("Clicking submit button");
       submitButton.click();
     }
-  }, 2000);
+  }, 100);
 }
 
