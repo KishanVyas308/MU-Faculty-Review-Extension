@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Mu Auto Review Extension",
+    "version": "1.0",
+    "description": "Automatically updates feedback elements.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "Marwadi_University_logo.png",
+            "48": "Marwadi_University_logo.png",
+            "128": "Marwadi_University_logo.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
