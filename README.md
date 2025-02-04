@@ -32,7 +32,11 @@ https://github.com/user-attachments/assets/b9f6b93a-efc5-4134-bcc2-cb8444d9c785
 
 
 
-📹 **2. Setup & Installation** → [Watch Here](#)  
+📹 **2. Setup & Installation** 
+
+
+https://github.com/user-attachments/assets/f0d735ec-33c5-4c98-b3cd-6bd304991665
+
 
 ---
 
