@@ -2,6 +2,8 @@
 
 Filling out faculty and warden feedback is repetitive and time-consuming. This Chrome extension automates the process, instantly selecting all rating stars and making feedback submission effortless.
 
+Note: The University has changed the way of tacking review so this version is not working for the new one.
+
 ## ✨ Features
 ✅ One-click rating selection  
 ✅ Saves time & effort ⏳  
